@@ -46,7 +46,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #efc466;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -88,8 +88,8 @@ nav img{
 
 }
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #d1ab59;
+    background: #d1ab59;
     transition: 1s;
 }
 
@@ -109,7 +109,7 @@ nav .fa{
     }
     .nav-links {
         position: absolute;
-        background: #f44336;
+        background: #c19c4d;
         height: 100vh;
         width: 100px;
         top:0;
@@ -198,4 +198,13 @@ h3{
     .houses-col img{
         max-width: 35%; 
     }
+}
+
+/*---------- dorms ----------*/
+
+.campus{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;
 }
