@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liceul teoretic Grigore Moisil</title>
+    <title>Hogwarts</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,13 +13,13 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="moisil_img/mlogo.png"></a>
+            <a href="index.html"><img src="images/logo.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-close" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURSE</a></li>
+                    <li><a href="">HOUSES</a></li>
                     <li><a href="">BLOG</a></li>
                     <li><a href="">CONTENT</a></li>
                 </ul>
@@ -27,34 +27,38 @@
             <i class="fa fa-navicon" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
-            <h1>Liceul Teoretic „Grigore Moisil”</h1>
-            <p>Inaltimile se ating prin stradanie! 
-                <br>Descopera-ti potentialul adevarat intr-un liceu de top.
+            <h1>Hogwarts</h1>
+            <p>Hogwarts School of Witchcraft and Wizardry
+                <br>Descover your full magic potential and be the wizard of your dreams!
             </p>
-            <a href="" class="hero-btn">Visiteaza-ne pentru a afla mai multe</a>
+            <a href="" class="hero-btn">Visit us to know more</a>
         </div>
     </section>
 
-<!----------Course---------->    
-<section class="course">
-    <h1>Cluburile noastre</h1>
-    <p>In liceul nostru, creativitatea si gandirea logica sunt prietene!</p>
+<!----------Houses---------->    
+<section class="houses">
+    <h1>Our Houses</h1>
+    <p>Let the magic hat choose your future house!</p>
     <div class="row">
-        <div class="course-col">
-            <h3>Intermediar</h3>
-            <p>Lorem ipsum iedwffoififqoi fq ff wqif ow jfi qwjfijewfjwqofijowfj</p>
+        <div class="houses-col">
+            <h3>Gryffindor</h3>
+            <p>The bravest of wizards are placed right in this house</p>
         </div>
-        <div class="course-col"></div>
-            <h3>Certificare</h3>
-            <p>Lorem ipsum iedwffoififqoi fq ff wqif ow jfi qwjfijewfjwqofijowfj</p>
+        <div class="houses-col">
+            <h3>Ravenclaw</h3>
+            <p>For those with an insatiable thirst for knowledge, this house is like a dream</p>
         </div>
-        <div class="course-col"></div>
-            <h3>Absolvire</h3>
-            <p>Lorem ipsum iedwffoififqoi fq ff wqif ow jfi qwjfijewfjwqofijowfj</p>
+        <div class="houses-col">
+            <h3>Hufflepuff</h3>
+            <p>Determined, loyal, and passionate is what a true Hufflepuff is like!</p>
         </div>
-        
+        <div class="houses-col">
+            <h3>Slytherin</h3>
+            <p>Ambitious and stubborn like a bull, but sharp-tongued like a snake, this is a Slytherin's essence</p>
+        </div>
     </div>
 </section>
+
 <!--------JavaScript for Toggle Menu-------->
 <script>
     var navLinks=document.getElementById("navLinks");
