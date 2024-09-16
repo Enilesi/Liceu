@@ -404,3 +404,29 @@ h3{
 }
 
 
+
+
+/*-------------- footer ----------------*/
+
+.footer{
+    width: 80%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 250px;
+    font-weight: 600;
+}
+
+.footer p{
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+
+
+
