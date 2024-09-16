@@ -378,3 +378,29 @@ h3{
         margin-right: 15px;
     }
 }
+
+/*----------- call to action --------*/
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/banner02.jpg);
+    background-position:center;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    
+}
+
+.cta h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
+
+
