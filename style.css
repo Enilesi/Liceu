@@ -437,7 +437,7 @@ h3{
 
 
 .sub-header{
-    height: 80vh;
+    height: 75vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(images/background.jpg);
     background-position: center;
@@ -458,8 +458,8 @@ h3{
     width: 80%;
     height: 400px;
     margin:auto;
-    padding-top: 110px;
-    padding-bottom: 50px;
+    padding-top: 120px;
+    padding-bottom: 55px;
 
 }
 .background-rectangle{
