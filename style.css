@@ -12,6 +12,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    
 }   
 
 nav{
@@ -292,20 +293,22 @@ h3{
     border-radius: 7px;
     margin-bottom: 5%;
     text-align: left;
+    background: #f4e9d3;
 }
 .facilities-col img{
     width: 100%;
     height: 250px;
     object-fit: cover; 
     display: block;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .facilities-col p{
     padding: 0;
-    margin-left: 7px;
-    margin-right: 5px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 12px;
+    margin-bottom: 20px;
 }
 
 .facilities-col h3{
@@ -315,7 +318,7 @@ h3{
 }
 
 .facilities-col:hover {
-    box-shadow: 7px 10px rgba(0,0,0,0.4);
+    box-shadow: 7px 10px rgba(0,0,0,0.5);
 }
 
 
