@@ -492,3 +492,19 @@ h3{
 .gold-btn:hover{
     color:white;
 }
+
+
+/* ------------ Houses ----------- */
+
+.hat-ceremony p{
+    padding: 15px 0 25px;
+    text-align: left;
+    font-size: 16px;
+} 
+
+.dorms-text p{
+    padding: 15px 0 25px;
+    text-align: left;
+    font-size: 16px;
+    top:12px;
+} 
