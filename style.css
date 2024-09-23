@@ -42,7 +42,6 @@ nav img{
     font-size: 13px;
 }
 
-/* for hover effect*/
 .nav-links ul li::after{
     content: '';
     width: 0%;
