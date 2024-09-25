@@ -7,6 +7,25 @@ function showMenu() {
 function hideMenu() {
     navLinks.style.right = "-200px";
 }
+async function test(){
+    const response = await fetch('http://localhost:3000');
+    const data = await response.json();
+    console.log(data);
+}
+
+function send_comment(e) {
+    e.preventDefault();
+    const form = e.target;
+    const data = new FormData(form);
+    const object = {};
+    data.forEach((value, key) => object[key] = value);
+    console.log(JSON.stringify(object));
+    fetch('http://localhost:3000/comment',
+        {method: "POST",body:JSON.stringify(object),headers:{
+            "Content-Type": "application/json"
+        }})
+    .then(()=>{console.log("gata nene")});
+  }
 
 const ids = [
     'div-link-gryffindor', 
@@ -36,3 +55,5 @@ function makeCursorPointer(elementId) {
 }
 
 ids.forEach(makeCursorPointer);
+
+
